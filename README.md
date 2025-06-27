@@ -76,7 +76,7 @@ CSE_Training_2025
 
 **Categories**
 - Command line shell
-- Grapjic shell
+- Graphic shell
 
 # Linux File System Structure
 
