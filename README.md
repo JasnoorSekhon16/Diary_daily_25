@@ -78,3 +78,27 @@ CSE_Training_2025
 - Command line shell
 - Grapjic shell
 
+# Linux File System Structure
+
+![Linux File System Structure](linux-filesystem.png)
+
+# Commands
+- We learned and emplemented various commands in linux.
+- Below are the commands we learnt today
+
+| Command   | Description                            |
+|-----------|----------------------------------------|
+| `ls`      | Lists files and directories             |
+| `whoami`  | Shows current logged-in user            |
+| `date`    | Displays current date and time          |
+| `cd`      | Changes the directory                   |
+| `mkdir`   | Creates a new directory                 |
+| `cat`     | Displays content of a file              |
+| `touch`   | Creates an empty file                   |
+| `cp`      | Copies files or directories             |
+| `pwd`     | Prints current working directory        |
+| `whereis` | Finds location of a command             |
+| `whatis`  | Shows a brief description of a command  |
+| `mv`      | Moves or renames files and directories  |
+
+- After learning, we practiced these commands on an online terminal
