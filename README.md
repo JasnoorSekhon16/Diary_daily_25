@@ -149,3 +149,61 @@ CSE_Training_2025
  - Here we renamed the file file2 to newfile
 
 ![mv command output](mv.png)
+
+
+
+# DAY 3 of Training
+
+# File and Directory permossions
+-In Linux (like Ubuntu), permissions decide who can do what with a file or folder.
+
+**chmod**
+- chmod stands for change mode. It is used to change the permissions of files or directories in Linux.
+
+  **syntax**
+  -chmod [permissions] [filename] **for permission*
+  - ./filename.sh **for displaying*
+
+**chmod +x filename.sh^**
+- +x enables executable file
+
+**chmod 444 filename.sh**
+- 444 enables a read only file
+
+**chmod 644 filename.sh**
+- it enables permissions only to owner2.
+
+# Redirection
+- Redirection in Linux means sending the output or input of a command to somewhere else, like a file.
+- Example: echo "Hello" > file.txt
+
+## 🔄 Redirection Operators in Linux
+
+| Type         | Symbol | Example Command                  | Description                             |
+|--------------|--------|----------------------------------|-----------------------------------------|
+| Output       | `>`    | `echo "Hello" > file.txt`        | Writes "Hello" to `file.txt` (overwrites) |
+| Append       | `>>`   | `echo "World" >> file.txt`       | Adds "World" to end of `file.txt`        |
+| Input        | `<`    | `wc -l < file.txt`               | Reads `file.txt` as input to `wc -l`     |
+
+
+# Pipe '|'
+- In Linux, a pipe (|) is used to connect two commands — it takes the output of one command and passes it as input to another.
+
+  **syntax**
+  - command1 | command2
+  - command1 → generates output
+  - command2 → takes that output as input
+
+ ✅ Example:
+
+ls | sort
+
+📄 This lists all files (ls) and sorts them (sort).
+
+# Practice Programs
+# Program 1
+
+**To display various variables**
+
+![program1](program1.1.png)
+
