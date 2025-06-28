@@ -102,3 +102,18 @@ CSE_Training_2025
 | `mv`      | Moves or renames files and directories  |
 
 - After learning, we practiced these commands on an online terminal
+
+
+**ls**
+
+- It lists all the directories and files
+
+![Image Description](ls.png)
+
+**mkdir**
+- It makes a new directory by using 'mkdir filename'
+
+  **cd**
+  - It changes the directory you are working on
+
+    
