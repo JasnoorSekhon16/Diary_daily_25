@@ -154,6 +154,36 @@ CSE_Training_2025
 
 # DAY 3 of Training
 
+# Dual Boot:
+- Dual booting allows a computer to run two different operating systems, enabling users to choose which one to boot into upon startup.
+
+# ISO file:
+- In Linux, an ISO file is a single file containing a complete copy of the data from a CD, DVD, or other optical media, formatted as an ISO 9660 file system.
+
+# Bare metal installation:
+- It refers to setting up an operating system directly on a physical server's hardware, without any intervening virtualization layer like a hypervisor.
+
+# VMware:
+- VMware is a commercial product known for its enterprise-grade features, performance, and comprehensive support.
+
+#  Virtual box:
+-  VirtualBox is an open-source, free alternative, generally favored for personal use, testing, and development.
+# Partitioning schemes:
+
+- Dividing a hard disk into separate sections.
+
+##  Difference Between MBR and GPT
+
+| Feature                    | MBR (Master Boot Record)        | GPT (GUID Partition Table)              |
+|----------------------------|----------------------------------|------------------------------------------|
+| Maximum Partitions         | Up to 4 primary partitions       | Supports up to 128 partitions (by default) |
+| Disk Size Support          | Up to 2 TB                       | Supports disks larger than 2 TB           |
+| Partitioning Method        | Stores partition info in one place | Stores multiple copies for recovery     |
+| Compatibility              | Older systems (BIOS)             | Modern systems (UEFI)                    |
+| Security                   | No CRC protection                | Uses CRC for error checking              |
+| Boot Mode                  | BIOS-based booting               | UEFI-based booting                       |
+| Data Recovery              | Difficult                        | Easier (multiple headers)                |
+
 # File and Directory permossions
 -In Linux (like Ubuntu), permissions decide who can do what with a file or folder.
 
@@ -177,7 +207,7 @@ CSE_Training_2025
 - Redirection in Linux means sending the output or input of a command to somewhere else, like a file.
 - Example: echo "Hello" > file.txt
 
-## 🔄 Redirection Operators in Linux
+## Redirection Operators in Linux
 
 | Type         | Symbol | Example Command                  | Description                             |
 |--------------|--------|----------------------------------|-----------------------------------------|
@@ -194,7 +224,7 @@ CSE_Training_2025
   - command1 → generates output
   - command2 → takes that output as input
 
- ✅ Example:
+  Example:
 
 ls | sort
 
