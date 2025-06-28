@@ -111,9 +111,41 @@ CSE_Training_2025
 ![Image Description](ls.png)
 
 **mkdir**
-- It makes a new directory by using 'mkdir filename'
+   - It makes a new directory by using 'mkdir filename'
+   - Here we made a new directory names newdirectory
 
-  **cd**
+**cd**
   - It changes the directory you are working on
+  - Here we changed the directory to newdirectory
 
-    
+  ![mkdir and cd command output](mkdirandcd.png)
+
+**cat**
+ - It is used to create a file with content by using '>' operator
+ - It is also used to display a file
+ - Here we created a file named file1 and typed our content and then displayed file1 with cat.
+
+![cat command output](cat.png)
+
+**touch**
+ - It is used to create a file without content
+ - Here we created a file named file2 without any content in it.
+
+![touch command output](touch.png)
+
+**cp**
+ - It is used to copy one file to another by using 'cp source_file destination_file'.
+ - Here we copied the content of file1 to file2.
+
+![cp command output](cp.png)
+
+**whereis,** **whatis,** **whoami,** **pwd**
+
+![ command output](whereis.png)
+
+**mv**
+ - It is used to rename a file
+ - It is also used to move a file to a new directory
+ - Here we renamed the file file2 to newfile
+
+![mv command output](mv.png)
