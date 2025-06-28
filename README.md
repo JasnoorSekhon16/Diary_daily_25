@@ -190,11 +190,11 @@ CSE_Training_2025
 **chmod**
 - chmod stands for change mode. It is used to change the permissions of files or directories in Linux.
 
-  **syntax**
-  -chmod [permissions] [filename] **for permission*
+**syntax**
+-chmod [permission] [filename]  **for permission*
   - ./filename.sh **for displaying*
 
-**chmod +x filename.sh^**
+**chmod +x filename.sh**
 - +x enables executable file
 
 **chmod 444 filename.sh**
