@@ -207,3 +207,33 @@ ls | sort
 
 ![program1](program1.1.png)
 
+![program1](program1.2.png)
+
+
+*Output*
+
+![program1](program1.3.png)
+
+# Program2
+
+**To find the greater between two numbers**
+
+![program2](program2.1.png)
+
+![program2](program2.2.png)
+
+*Output*
+
+![program2](program2.3.png)
+
+# Program3
+
+**To print a multiplication table of a number**
+
+![program3](program3.1.png)
+
+![program3](program3.2.png)
+
+*Output*
+
+![program3](program3.3.png)
