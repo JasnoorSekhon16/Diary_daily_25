@@ -269,3 +269,20 @@ ls | sort
 *Output*
 
 ![program3](program3.3.png)
+
+
+# Day4 of training 
+
+# File Compression 
+- File compression in Linux is the process of reducing the size of files or folders to save disk space or make them easier to transfer.
+
+**syntax**
+- gzip file.txt 
+
+(creates file.txt.gz and deletes file.txt)
+
+- gunzip file.txt.gz
+
+(unzips the file file.txt.gz)
+
+- 
