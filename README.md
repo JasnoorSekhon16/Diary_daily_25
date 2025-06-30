@@ -285,4 +285,18 @@ ls | sort
 
 (unzips the file file.txt.gz)
 
-- 
+**If we want to keep both the zipped and unzipped files, then we use -k**
+
+**syntax**
+- gzip -k file.txt
+
+# Wildcards
+- Maches files without typing full names
+
+| Wildcard       | Description                              | Example         | Matches                                    |
+|----------------|----------------------------------------|-----------------|--------------------------------------------|
+| `*`            | Matches zero or more characters         | `*.txt`         | `file.txt`, `notes.txt`, `a.txt`, `.txt`  |
+| `?`            | Matches exactly one character           | `file?.txt`     | `file1.txt`, `fileA.txt` (not `file10.txt`)|
+| `[abc]`        | Matches exactly one character listed    | `file[12].txt`  | `file1.txt`, `file2.txt` (not `file3.txt`) |
+| `[!abc]` or `[^abc]` | Matches exactly one character NOT listed | `file[!12].txt` | `file3.txt`, `fileA.txt` (not `file1.txt`, `file2.txt`) |
+
