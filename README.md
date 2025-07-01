@@ -415,3 +415,16 @@ ls | sort
 #HDD
 - HDD stands for Hard Disk Drive, a non-volatile storage device used to store data permanently on computers, laptops, servers, and other digital systems. It uses magnetic storage to write and retrieve digital information using one or more spinning platters and a moving read/write head.
 
+## 🔹 Key Features of HDD
+
+| Feature              | Description                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| **Storage Capacity** | Typically ranges from 500 GB to several TB (terabytes).                    |
+| **Speed (RPM)**      | Common speeds: 5400 RPM, 7200 RPM, 10000 RPM. Higher RPM = faster access.  |
+| **Interface**        | Most commonly uses SATA (Serial ATA), older ones may use IDE or SCSI.      |
+| **Durability**       | Mechanical parts make it more prone to physical damage than SSDs.           |
+| **Cost**             | Cheaper per GB than SSDs.                                                  |
+| **Use Cases**        | Great for large-scale storage like backups, videos, and archives.          |
+
+
+**Types**
