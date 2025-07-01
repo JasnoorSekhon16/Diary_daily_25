@@ -406,3 +406,12 @@ ls | sort
 | 6    | **Storage Drive (HDD/SSD)** | BIOS/UEFI finds the bootloader in the storage device                       |
 | 7    | **Bootloader**            | Loads the operating system into RAM                                        |
 | 8    | **Operating System**      | Starts running; shows login screen or desktop                              |
+
+
+# Day5 of training 
+
+# Computer Hardware and Troubleshooting 
+
+#HDD
+- HDD stands for Hard Disk Drive, a non-volatile storage device used to store data permanently on computers, laptops, servers, and other digital systems. It uses magnetic storage to write and retrieve digital information using one or more spinning platters and a moving read/write head.
+
