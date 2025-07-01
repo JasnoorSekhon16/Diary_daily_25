@@ -290,13 +290,119 @@ ls | sort
 **syntax**
 - gzip -k file.txt
 
+![gzip](https://github.com/user-attachments/assets/fd0c6149-0459-4bea-8aec-55d304cd05ee)
+
 # Wildcards
 - Maches files without typing full names
 
-| Wildcard       | Description                              | Example         | Matches                                    |
-|----------------|----------------------------------------|-----------------|--------------------------------------------|
-| `*`            | Matches zero or more characters         | `*.txt`         | `file.txt`, `notes.txt`, `a.txt`, `.txt`  |
-| `?`            | Matches exactly one character           | `file?.txt`     | `file1.txt`, `fileA.txt` (not `file10.txt`)|
-| `[abc]`        | Matches exactly one character listed    | `file[12].txt`  | `file1.txt`, `file2.txt` (not `file3.txt`) |
-| `[!abc]` or `[^abc]` | Matches exactly one character NOT listed | `file[!12].txt` | `file3.txt`, `fileA.txt` (not `file1.txt`, `file2.txt`) |
+| Wildcard | Description                                      | Example         | Matches                          |
+|----------|--------------------------------------------------|-----------------|----------------------------------|
+| `*`      | Matches zero or more characters                  | `ls *.txt`      | All `.txt` files                 |
+| `?`      | Matches exactly one character                    | `ls file?.txt`  | `file1.txt`, `fileA.txt`, etc.  |
+| `[...]`  | Matches any one character in the brackets        | `ls file[1-3].txt` | `file1.txt`, `file2.txt`, `file3.txt` |
+| `[^...]` | Matches any one character **not** in the brackets| `ls file[^1].txt` | All files except `file1.txt`     |
+| `{a,b}`  | Matches either `a` or `b` (brace expansion)      | `echo {Jan,Feb}` | `Jan` `Feb`                      |
+| `\`      | Escapes a wildcard character                     | `ls \*.txt`     | Matches a file literally named `*.txt` |
 
+![wildcards](https://github.com/user-attachments/assets/ac70c81d-1f0e-4795-97c6-d31669e5bc99)
+
+
+# Assignment - Escaping Characters
+- Escaping characters are used in the Linux command line (like Bash) to prevent special characters from being interpreted by the shell.
+- Escaping characters = Telling the shell:
+
+"Treat this symbol as a normal character, not something special."
+
+| Character | Purpose                                           | Example            | Result                                                   |
+|-----------|---------------------------------------------------|--------------------|----------------------------------------------------------|
+| `\`       | Escape special characters (like `*`, `?`, `|`)    | `echo \*`          | Prints `*` instead of using it as a wildcard             |
+| `\"`      | Escape double quote inside double-quoted strings  | `echo "She said \"Hi\""` | Prints `She said "Hi"`                          |
+| `\'`      | Escape single quote inside single-quoted strings (rare; use other quoting) | `echo 'It\'s OK'` | May not work; better to use double quotes               |
+| `\\`      | Escape backslash itself                           | `echo \\`          | Prints `\`                                                |
+| ``\` ``   | Escape backtick or use it in command substitution | \`echo hello\`     | Runs command and replaces it with output                |
+| `\$`      | Escape dollar sign to prevent variable expansion  | `echo \$HOME`      | Prints `$HOME` instead of expanding it                  |
+| `\` inside `''` | No effect; backslashes are literal          | `echo '\$HOME'`    | Prints `\$HOME`                                          |
+
+
+# Hardware
+- Hardware refers to the physical parts of any computer system — the components you can see and touch.
+
+| Category            | Examples                                           | Purpose                                      |
+|---------------------|----------------------------------------------------|----------------------------------------------|
+| **Input Devices**   | Keyboard, Mouse, Microphone, Scanner               | Send data *into* the computer                |
+| **Output Devices**  | Monitor, Printer, Speakers                         | Show or deliver results *from* the computer  |
+| **Processing Unit** | CPU (Central Processing Unit), GPU (Graphics Card) | The "brain" – processes instructions         |
+| **Storage Devices** | Hard Drive (HDD), SSD, USB Drive, CD/DVD           | Store data permanently or temporarily        |
+| **Memory**          | RAM (Random Access Memory), Cache                  | Holds data for fast access while working     |
+| **Motherboard**     | Main circuit board                                 | Connects and allows communication between parts |
+| **Power Supply**    | PSU (Power Supply Unit)                            | Converts electricity for the computer to use |
+| **Cooling System**  | Fans, Heat Sinks, Liquid Cooling                   | Prevents overheating                         |
+| **Ports & Expansion**| USB Ports, HDMI, Expansion Slots                  | Connect external devices or upgrade system   |
+
+# Key components of CPU Cabinet
+
+| Component              | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| **Motherboard**        | Main circuit board that connects all hardware components                   |
+| **CPU (Processor)**    | Brain of the computer; performs all calculations and tasks                  |
+| **RAM (Memory)**       | Temporary memory used while the computer is on                              |
+| **Hard Drive / SSD**   | Storage devices for saving files and the operating system                   |
+| **Power Supply (PSU)** | Converts electricity from the wall into usable power for the computer       |
+| **Cooling System**     | Includes CPU fan, case fans, and sometimes liquid cooling to prevent overheating |
+| **Optical Drive** *(optional)* | Reads CDs/DVDs (less common today)                               |
+| **Expansion Cards**    | Graphics card (GPU), sound card, network card, etc.                         |
+| **Ports and Connectors**| USB, HDMI, Ethernet, audio jacks — for connecting external devices         |
+| **Cables and Wires**   | Power and data cables that connect all the parts together                   |
+
+![image](https://github.com/user-attachments/assets/549c9ce4-27b5-4ccf-91c5-a251ebcc9c9b)
+
+# Difference between RAM and Hard disk
+
+| Feature              | RAM (Random Access Memory)                      | Hard Disk (HDD/SSD)                          |
+|----------------------|--------------------------------------------------|----------------------------------------------|
+| **Function**         | Temporary memory used while programs run         | Permanent storage for files and software     |
+| **Data Storage**     | Stores data temporarily                         | Stores data permanently                      |
+| **Speed**            | Very fast                                        | Slower compared to RAM                       |
+| **Volatility**       | Volatile (data is lost when power is off)        | Non-volatile (data stays even when off)      |
+| **Size/Capacity**    | Smaller (usually 4GB to 32GB in PCs)             | Larger (hundreds of GBs to several TBs)      |
+| **Usage**            | Active processes, apps, and OS operations        | Documents, media, programs, OS installation  |
+| **Upgrade Impact**   | Improves speed and multitasking                  | Increases storage space                      |
+
+# Difference between Ram and cache memory
+
+| Feature              | RAM (Random Access Memory)                      | Cache Memory                                 |
+|----------------------|--------------------------------------------------|----------------------------------------------|
+| **Function**         | Temporary memory for running programs            | Very fast memory for storing frequently used data |
+| **Location**         | On the motherboard                               | Inside or very close to the CPU              |
+| **Speed**            | Fast                                             | Faster than RAM                              |
+| **Size/Capacity**    | Larger (4GB–32GB in most systems)                | Very small (KBs to few MBs)                  |
+| **Access Time**      | Slower than cache                                | Extremely fast                               |
+| **Volatility**       | Volatile (loses data when power is off)          | Volatile                                     |
+| **Purpose**          | Holds programs and data being used by the system | Reduces CPU wait time by storing quick-access data |
+| **Cost**             | Cheaper per GB                                   | More expensive per KB                        |
+
+# ROM
+- ROM stands for Read-Only Memory.
+- It is a type of non-volatile memory, meaning it retains data even when the power is turned off.
+
+| Feature              | Description                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| **Full Form**        | Read-Only Memory                                                            |
+| **Volatility**       | Non-volatile (data is not lost when power is off)                          |
+| **Function**         | Stores permanent instructions for the computer to start (boot up)          |
+| **Write Access**     | Usually written once, or rarely changed                                     |
+| **Speed**            | Slower than RAM                                                             |
+| **Examples**         | BIOS, Firmware, Embedded system software                                    |
+
+# Process of booting
+
+| Step | Hardware Component       | Description                                                                 |
+|------|---------------------------|-----------------------------------------------------------------------------|
+| 1    | **Power Supply (PSU)**    | Sends power to all components when the system is turned on                 |
+| 2    | **Motherboard**           | Distributes power and connects CPU, RAM, and other components              |
+| 3    | **CPU**                   | Starts executing instructions from ROM                                     |
+| 4    | **ROM (BIOS/UEFI)**       | Runs POST (Power-On Self-Test) to check basic hardware                     |
+| 5    | **RAM**                   | Is tested and then used to load the OS                                     |
+| 6    | **Storage Drive (HDD/SSD)** | BIOS/UEFI finds the bootloader in the storage device                       |
+| 7    | **Bootloader**            | Loads the operating system into RAM                                        |
+| 8    | **Operating System**      | Starts running; shows login screen or desktop                              |
