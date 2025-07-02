@@ -528,3 +528,12 @@ POST is a built-in diagnostic program that runs automatically when a computer is
 
 
 6. Detects storage devices (HDD, SSD)
+
+## POST vs BIOS vs Boot Process
+
+| Term     | Full Form                 | Function                                                                 | When It Happens                    | Key Responsibilities                                |
+|----------|---------------------------|--------------------------------------------------------------------------|------------------------------------|-----------------------------------------------------|
+| POST     | Power-On Self-Test        | Checks hardware components and basic system functionality                | Immediately after system is powered on | Verifies CPU, RAM, keyboard, storage, etc.          |
+| BIOS     | Basic Input/Output System | Initializes and configures hardware, provides an interface for firmware | Right after POST is complete       | Loads device settings, runs POST, and starts boot   |
+| Boot     | Booting Process           | Loads the operating system into memory                                   | After BIOS hands over control      | Loads OS from storage (HDD/SSD) into RAM            |
+
