@@ -427,4 +427,20 @@ ls | sort
 | **Use Cases**        | Great for large-scale storage like backups, videos, and archives.          |
 
 
-**Types**
+
+## Types of HDD
+
+1. Desktop HDD – Standard 3.5" drives used in desktop PCs.
+
+
+2. Laptop HDD – Compact 2.5" drives designed for notebooks.
+
+
+3. Enterprise HDD – High-performance drives for servers and data centers.
+
+
+4. NAS HDD – Optimized for Network Attached Storage with 24/7 operation.
+
+
+5. Surveillance HDD – Designed for continuous video recording (CCTV systems).
+
