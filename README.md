@@ -474,3 +474,27 @@ ls | sort
 
 # BSOD
 - BSOD stands for Blue Screen of Death. It is a critical system error screen displayed by Microsoft Windows operating systems when the system encounters a fatal error that it cannot recover from, often requiring a restart.
+
+
+# Causes of BSOD
+
+1. Driver Issues – Outdated, corrupted, or incompatible hardware drivers.
+
+
+2. Hardware Failures – Failing RAM, hard drives, overheating, etc.
+
+
+3. Corrupt System Files – System files required for Windows to run may get damaged.
+
+
+4. Overclocking – Increasing CPU/GPU speeds can lead to instability.
+
+
+5. Malware – Malicious software can interfere with system processes.
+
+
+6. Software Conflicts – Newly installed applications conflicting with existing ones.
+
+
+7. Windows Updates – In rare cases, a new update can trigger instability.
+
