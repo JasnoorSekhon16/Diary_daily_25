@@ -412,7 +412,7 @@ ls | sort
 
 # Computer Hardware and Troubleshooting 
 
-#HDD
+# HDD
 - HDD stands for Hard Disk Drive, a non-volatile storage device used to store data permanently on computers, laptops, servers, and other digital systems. It uses magnetic storage to write and retrieve digital information using one or more spinning platters and a moving read/write head.
 
 ## 🔹 Key Features of HDD
@@ -505,3 +505,7 @@ ls | sort
 | ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
 | **BIOS (Basic Input/Output System)**             | The traditional firmware that initializes hardware during boot before handing over to the OS.               |
 | **UEFI (Unified Extensible Firmware Interface)** | A modern, more advanced replacement for BIOS with a graphical interface, mouse support, and faster booting. |
+
+# What is POST (Power-On Self-Test)?
+
+POST is a built-in diagnostic program that runs automatically when a computer is powered on. It checks if the hardware components of the system are working properly before loading the operating system (OS).
