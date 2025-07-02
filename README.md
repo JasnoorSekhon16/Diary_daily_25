@@ -462,3 +462,12 @@ ls | sort
 | Too Many Browser Tabs    | High RAM usage                                   | Close tabs, use light browsers                                 |
 | Background Updates       | Slows performance                                | Let updates finish or pause                                    |
 | Weak CPU                 | Can’t handle new apps                            | Upgrade processor (if possible)                                |
+
+# Printer Issues & Solutions:
+
+| Problem                            | Solution                                  |
+| ---------------------------------- | ----------------------------------------- |
+|  Paper Jam                       | Remove the stuck page carefully           |
+|  Printer Out of Paper During Print Job | Use Queue.                 |
+|  Faded or Poor Quality Prints   | Refill or replace ink/toner               |
+|  Overlapping Lines in Print      | Possible drum issue, replace the drum |
