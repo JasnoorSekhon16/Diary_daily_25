@@ -498,3 +498,10 @@ ls | sort
 
 7. Windows Updates – In rare cases, a new update can trigger instability.
 
+
+# BIOS/UEFI Settings and POST Errors:
+
+| Term                                             | Meaning                                                                                                     |
+| ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
+| **BIOS (Basic Input/Output System)**             | The traditional firmware that initializes hardware during boot before handing over to the OS.               |
+| **UEFI (Unified Extensible Firmware Interface)** | A modern, more advanced replacement for BIOS with a graphical interface, mouse support, and faster booting. |
