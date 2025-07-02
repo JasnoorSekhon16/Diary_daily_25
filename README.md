@@ -509,3 +509,22 @@ ls | sort
 # What is POST (Power-On Self-Test)?
 
 POST is a built-in diagnostic program that runs automatically when a computer is powered on. It checks if the hardware components of the system are working properly before loading the operating system (OS).
+
+**Functions of POST:**
+
+1. Checks the CPU
+
+
+2. Tests RAM (memory)
+
+
+3. Checks motherboard components
+
+
+4. Tests video card (graphics)
+
+
+5. Detects keyboard and mouse
+
+
+6. Detects storage devices (HDD, SSD)
