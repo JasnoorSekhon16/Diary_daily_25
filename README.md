@@ -444,3 +444,21 @@ ls | sort
 
 5. Surveillance HDD – Designed for continuous video recording (CCTV systems).
 
+
+## If your PC is Running Slow
+ 
+**Causes & Fixes**
+
+| Issue                    | Explanation                                      | Fix/Solution                                                   |
+|--------------------------|--------------------------------------------------|----------------------------------------------------------------|
+| Too Many Startup Apps    | Slows boot time                                  | `Ctrl + Shift + Esc → Startup → Disable unnecessary apps`      |
+| Low RAM                  | Can’t multitask well                             | Upgrade RAM to 8GB+                                            |
+| Fragmented HDD           | File access delays (HDD only)                    | Run Disk Defragmenter                                          |
+| Old/Faulty HDD           | Degrading speed                                  | Replace with SSD                                               |
+| Background Processes     | Resource hogging apps                            | End unnecessary processes from Task Manager                    |
+| Virus/Malware            | System lag & damage                              | Scan with antivirus                                            |
+| Outdated Drivers         | Causes lag or crashes                            | Update from Device Manager or manufacturer site                |
+| Overheating              | Thermal throttling slows system                  | Clean fans, apply thermal paste                                |
+| Too Many Browser Tabs    | High RAM usage                                   | Close tabs, use light browsers                                 |
+| Background Updates       | Slows performance                                | Let updates finish or pause                                    |
+| Weak CPU                 | Can’t handle new apps                            | Upgrade processor (if possible)                                |
