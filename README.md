@@ -471,3 +471,6 @@ ls | sort
 |  Printer Out of Paper During Print Job | Use Queue.                 |
 |  Faded or Poor Quality Prints   | Refill or replace ink/toner               |
 |  Overlapping Lines in Print      | Possible drum issue, replace the drum |
+
+# BSOD
+- BSOD stands for Blue Screen of Death. It is a critical system error screen displayed by Microsoft Windows operating systems when the system encounters a fatal error that it cannot recover from, often requiring a restart.
