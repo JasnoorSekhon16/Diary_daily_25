@@ -610,3 +610,16 @@ Windows features stop working
 | Security Warnings    | - Fake antivirus alerts<br>- Access denied to folders or settings             |
 | Network Issues       | - Internet disconnects<br>- Suspicious network traffic                        |
 | File Issues          | - Files missing or encrypted<br>- Extensions changed (e.g., .exe → .xyz)      |
+
+## Basic Virus & Malware Removal Steps (Windows)
+
+| **Step**                        | **What To Do**                                                                 |
+|----------------------------------|--------------------------------------------------------------------------------|
+| Boot into Safe Mode             | Use minimal drivers/services to prevent malware from loading                   |
+| Run Windows Security            | Go to *Settings > Privacy & Security > Windows Security > Virus & threat protection* |
+| Use Malware Removal Tools       | Install & scan with tools like **Malwarebytes** or **AdwCleaner**              |
+| Uninstall Suspicious Programs   | Go to *Control Panel > Programs > Uninstall a program* and remove unknown apps |
+| Check Browser Extensions        | Remove unfamiliar or suspicious browser add-ons/extensions                     |
+| Run Disk Cleanup                | Run `cleanmgr` to delete temporary and malicious leftover files                |
+| Update Windows                  | Install the latest security updates via *Settings > Windows Update*            |
+| Use Command-Line Repairs        | Run `sfc /scannow` and `DISM /Online /Cleanup-Image /RestoreHealth`            |
