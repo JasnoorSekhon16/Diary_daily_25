@@ -537,3 +537,9 @@ POST is a built-in diagnostic program that runs automatically when a computer is
 | BIOS     | Basic Input/Output System | Initializes and configures hardware, provides an interface for firmware | Right after POST is complete       | Loads device settings, runs POST, and starts boot   |
 | Boot     | Booting Process           | Loads the operating system into memory                                   | After BIOS hands over control      | Loads OS from storage (HDD/SSD) into RAM            |
 
+
+# Day6 of training 
+
+# Safe mode
+- Safe Mode is a special way to start a computer or operating system (like Windows, macOS, or Android) that loads only the most basic and essential software and drivers.
+
