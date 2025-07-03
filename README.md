@@ -575,3 +575,15 @@ You need to fix startup issues.
 # OS Repair
 - OS Repair means fixing problems in the operating system (OS)—like Windows, macOS, or Linux—so that the system runs properly again. It can involve repairing corrupted files, fixing boot problems, or restoring the OS to a working state without erasing your data.
 
+**When is OS Repair Needed?**
+
+System won’t boot or crashes often
+
+System files are corrupted or missing
+
+Updates failed or caused problems
+
+Blue Screen of Death (BSOD) errors
+
+Windows features stop working
+
