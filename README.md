@@ -543,7 +543,7 @@ POST is a built-in diagnostic program that runs automatically when a computer is
 # Safe mode
 - Safe Mode is a special way to start a computer or operating system (like Windows, macOS, or Android) that loads only the most basic and essential software and drivers.
 
-**[F8, Shift+Restart]
+**[F8, Shift+Restart]**
 
 **Why it's used:**
 
@@ -571,3 +571,7 @@ You need to fix startup issues.
 | Safe Mode                  | Boots the system with only basic drivers and services for troubleshooting     |
 | Windows Memory Diagnostic  | Checks your system’s RAM for errors                                           |
 | UEFI Firmware Settings     | Lets you change BIOS/firmware settings                                       |
+
+# OS Repair
+- OS Repair means fixing problems in the operating system (OS)—like Windows, macOS, or Linux—so that the system runs properly again. It can involve repairing corrupted files, fixing boot problems, or restoring the OS to a working state without erasing your data.
+
