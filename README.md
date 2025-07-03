@@ -557,3 +557,6 @@ You need to uninstall programs or drivers that may be causing problems.
 
 You need to fix startup issues.
 
+# Recovery Tools 
+- Recovery tools are built-in or external software utilities that help repair, restore, or recover your system when it isn’t working properly.
+
