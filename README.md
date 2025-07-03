@@ -587,3 +587,14 @@ Blue Screen of Death (BSOD) errors
 
 Windows features stop working
 
+## Methods to Repair an OS (Windows Example)
+
+| **Repair Method**           | **What It Does**                                            | **Command or Tool**                                      |
+|----------------------------|-------------------------------------------------------------|-----------------------------------------------------------|
+| Startup Repair             | Fixes boot errors and missing system files                  | Recovery > Advanced > Startup Repair                      |
+| System File Checker (SFC)  | Scans and fixes corrupted system files                      | `sfc /scannow`                                            |
+| DISM Tool                  | Repairs Windows image and update components                 | `DISM /Online /Cleanup-Image /RestoreHealth`              |
+| System Restore             | Restores the OS to a previous good configuration            | `rstrui`                                                  |
+| Reset This PC              | Reinstalls Windows (optionally keeps files)                 | Settings > Recovery > Reset                               |
+| In-place Upgrade Repair    | Reinstalls Windows using a USB or ISO without deleting data | Bootable USB or run `Setup.exe` from a Windows ISO file   |
+| Chkdsk (Check Disk)        | Fixes file system and hard disk issues                      | `chkdsk /f /r`                                            |
