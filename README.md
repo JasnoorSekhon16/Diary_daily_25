@@ -543,3 +543,17 @@ POST is a built-in diagnostic program that runs automatically when a computer is
 # Safe mode
 - Safe Mode is a special way to start a computer or operating system (like Windows, macOS, or Android) that loads only the most basic and essential software and drivers.
 
+**[F8, Shift+Restart]
+
+**Why it's used:**
+
+Safe Mode helps when:
+
+Your system is crashing or freezing.
+
+You want to remove malware or viruses.
+
+You need to uninstall programs or drivers that may be causing problems.
+
+You need to fix startup issues.
+
