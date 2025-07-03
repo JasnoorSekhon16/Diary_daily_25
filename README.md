@@ -560,3 +560,14 @@ You need to fix startup issues.
 # Recovery Tools 
 - Recovery tools are built-in or external software utilities that help repair, restore, or recover your system when it isn’t working properly.
 
+
+| **Tool Name**              | **What It Does**                                                             |
+|----------------------------|------------------------------------------------------------------------------|
+| System Restore             | Restores your system to a previous state using restore points                |
+| Startup Repair             | Fixes issues preventing Windows from booting properly                       |
+| System Image Recovery      | Restores the entire system from a system image backup                        |
+| Command Prompt             | Allows advanced users to run manual repair commands (e.g., chkdsk, sfc)      |
+| Reset This PC              | Reinstalls Windows with options to keep or remove your personal files        |
+| Safe Mode                  | Boots the system with only basic drivers and services for troubleshooting     |
+| Windows Memory Diagnostic  | Checks your system’s RAM for errors                                           |
+| UEFI Firmware Settings     | Lets you change BIOS/firmware settings                                       |
