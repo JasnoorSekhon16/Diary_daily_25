@@ -598,3 +598,15 @@ Windows features stop working
 | Reset This PC              | Reinstalls Windows (optionally keeps files)                 | Settings > Recovery > Reset                               |
 | In-place Upgrade Repair    | Reinstalls Windows using a USB or ISO without deleting data | Bootable USB or run `Setup.exe` from a Windows ISO file   |
 | Chkdsk (Check Disk)        | Fixes file system and hard disk issues                      | `chkdsk /f /r`                                            |
+
+##  Common Symptoms of a Virus or Malware Infection
+
+| **Category**         | **Symptoms**                                                                 |
+|----------------------|------------------------------------------------------------------------------|
+| Performance Issues   | - Slow computer<br>- Frequent crashes or freezing                            |
+| Pop-ups & Ads        | - Unexpected ads and pop-ups even when browser is closed                     |
+| Browser Problems     | - Homepage changed<br>- Search engine redirected<br>- Unknown toolbars        |
+| Unusual Activity     | - Unknown apps or files appear<br>- High CPU usage<br>- System behaving oddly |
+| Security Warnings    | - Fake antivirus alerts<br>- Access denied to folders or settings             |
+| Network Issues       | - Internet disconnects<br>- Suspicious network traffic                        |
+| File Issues          | - Files missing or encrypted<br>- Extensions changed (e.g., .exe → .xyz)      |
