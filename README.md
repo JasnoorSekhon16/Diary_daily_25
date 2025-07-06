@@ -707,3 +707,97 @@ It translates human-friendly domain names (like www.google.com) into IP addresse
 DHCP is a network protocol that automatically assigns IP addresses and other network settings to devices on a network.
 
 It saves time and prevents IP conflicts by eliminating the need for manual configuration.
+
+# Day8 of training 
+
+# Basic Networking Commands
+
+
+**1. ping**
+
+Purpose:
+Tests connectivity between your device and another (like a website or IP address).
+
+**Syntax:**
+
+ping <hostname or IP address>
+
+**Example:**
+
+ping google.com
+
+**What It Does:**
+
+- Sends ICMP Echo Request
+
+- Receives ICMP Echo Reply
+
+- Measures response time in ms
+
+
+**Use Cases:**
+
+- Check if a device is reachable
+
+- Detect packet loss or network issues
+
+
+**2. traceroute (Linux/macOS) / tracert (Windows)**
+
+**Purpose:**
+Shows the path your data takes through routers to reach a destination.
+
+**Syntax:**
+
+On Windows:
+
+
+tracert <hostname or IP>
+
+On Linux/macOS:
+
+
+traceroute <hostname or IP>
+
+**Example:**
+
+tracert google.com
+
+**What It Does:**
+
+- Displays all the hops (routers) between you and the destination
+
+- Shows delay (latency) at each hop
+
+
+**Use Cases:**
+
+- Identify where the network slows down or fails
+
+- Diagnose routing problems
+
+
+**3. ipconfig (Windows only)**
+
+**Purpose:**
+- Displays network configuration details of your system.
+
+**Syntax:**
+
+ipconfig
+
+Advanced:
+
+ipconfig /all
+
+**What It Shows:**
+
+IP address
+
+Subnet mask
+
+Default gateway
+
+DNS servers
+
+MAC address (as "Physical Address")
