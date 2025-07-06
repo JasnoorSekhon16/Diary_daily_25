@@ -681,3 +681,9 @@ A subnet mask separates:
 - Network portion of an IP address
 
 - Host portion of an IP address
+
+**Default Gateway**
+
+A default gateway is a device (usually a router) that connects your local network to other networks, like the internet.
+
+It acts like a door for your device to send data outside its local network.
