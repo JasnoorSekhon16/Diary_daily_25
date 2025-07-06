@@ -695,3 +695,9 @@ MAC = Media Access Control Address
 A unique identifier assigned to every network interface card (NIC) or device that connects to a network.
 
 It's used to identify devices on a local network.
+
+**DNS**
+
+DNS is like the phonebook of the internet.
+
+It translates human-friendly domain names (like www.google.com) into IP addresses (like 142.250.195.100).
