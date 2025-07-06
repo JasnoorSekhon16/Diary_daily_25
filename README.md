@@ -623,3 +623,36 @@ Windows features stop working
 | Run Disk Cleanup                | Run `cleanmgr` to delete temporary and malicious leftover files                |
 | Update Windows                  | Install the latest security updates via *Settings > Windows Update*            |
 | Use Command-Line Repairs        | Run `sfc /scannow` and `DISM /Online /Cleanup-Image /RestoreHealth`            |
+
+
+# Day7 of training 
+
+# Networking 
+
+# 🔹 What is an IP Address?
+
+IP Address (Internet Protocol Address) is a unique number assigned to each device on a network.
+
+It identifies a host on a network and enables devices to communicate.
+
+
+** Types of IP Addresses**
+
+1. IPv4 (Internet Protocol version 4)
+
+- Format: XXX.XXX.XXX.XXX (e.g. 192.168.1.1)
+
+- 32-bit address (4 bytes)
+
+- Range: 0.0.0.0 to 255.255.255.255
+
+- About 4.3 billion unique addresses
+
+
+2. IPv6
+
+- 128-bit address (more than 340 undecillion addresses!)
+
+- Format: 8 groups of 4 hexadecimal digits (e.g. 2001:0db8:85a3:0000:0000:8a2e:0370:7334)
+
+- Developed due to IPv4 exhaustion
