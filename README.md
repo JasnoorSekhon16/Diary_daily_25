@@ -701,3 +701,9 @@ It's used to identify devices on a local network.
 DNS is like the phonebook of the internet.
 
 It translates human-friendly domain names (like www.google.com) into IP addresses (like 142.250.195.100).
+
+**DHCP**
+
+DHCP is a network protocol that automatically assigns IP addresses and other network settings to devices on a network.
+
+It saves time and prevents IP conflicts by eliminating the need for manual configuration.
