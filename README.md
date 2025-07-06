@@ -656,3 +656,13 @@ It identifies a host on a network and enables devices to communicate.
 - Format: 8 groups of 4 hexadecimal digits (e.g. 2001:0db8:85a3:0000:0000:8a2e:0370:7334)
 
 - Developed due to IPv4 exhaustion
+
+##  Classes of IPv4 Addresses
+
+| **Class** | **Starting Range**               | **Purpose**              | **Default Subnet Mask**     |
+|-----------|----------------------------------|---------------------------|-----------------------------|
+| A         | 1.0.0.0 – 126.0.0.0              | Large networks            | 255.0.0.0 (/8)              |
+| B         | 128.0.0.0 – 191.255.0.0          | Medium-sized networks     | 255.255.0.0 (/16)           |
+| C         | 192.0.0.0 – 223.255.255.0        | Small networks            | 255.255.255.0 (/24)         |
+| D         | 224.0.0.0 – 239.255.255.255      | Multicasting              | Not used for host addressing|
+| E         | 240.0.0.0 – 255.255.255.255      | Research & Reserved       | Not used publicly           |
