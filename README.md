@@ -687,3 +687,11 @@ A subnet mask separates:
 A default gateway is a device (usually a router) that connects your local network to other networks, like the internet.
 
 It acts like a door for your device to send data outside its local network.
+
+**MAC Address**
+
+MAC = Media Access Control Address
+
+A unique identifier assigned to every network interface card (NIC) or device that connects to a network.
+
+It's used to identify devices on a local network.
