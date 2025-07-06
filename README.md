@@ -666,3 +666,18 @@ It identifies a host on a network and enables devices to communicate.
 | C         | 192.0.0.0 – 223.255.255.0        | Small networks            | 255.255.255.0 (/24)         |
 | D         | 224.0.0.0 – 239.255.255.255      | Multicasting              | Not used for host addressing|
 | E         | 240.0.0.0 – 255.255.255.255      | Research & Reserved       | Not used publicly           |
+
+**What is Subnetting?**
+
+Subnetting is the process of dividing a large network into smaller, manageable sub-networks (subnets).
+
+Helps improve network performance, security, and IP address management.
+
+
+ **Subnet Mask**
+
+A subnet mask separates:
+
+- Network portion of an IP address
+
+- Host portion of an IP address
