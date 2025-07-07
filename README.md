@@ -801,3 +801,12 @@ Default gateway
 DNS servers
 
 MAC address (as "Physical Address")
+
+
+# Ethernet:
+- It is used to connect devices with a physical cable so that they can communicate or access.
+
+**How it Works:**
+- Plug one end of an Ethernet cable into your PC's network port.
+- Plug the other end of the cable into a modem or router.
+- Your PC can now communicate over the network and access the internet.
