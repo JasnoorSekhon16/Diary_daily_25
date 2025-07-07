@@ -810,3 +810,13 @@ MAC address (as "Physical Address")
 - Plug one end of an Ethernet cable into your PC's network port.
 - Plug the other end of the cable into a modem or router.
 - Your PC can now communicate over the network and access the internet.
+
+### Comparison of Network Types
+
+| **Network Type** | **Definition**                                                              | **Type**                  |                                         
+| ------------ | ----------------------------------------------------------------------------------- | ------------------------- |
+| **Ethernet** | A specific **wired** technology for local area networking.                          | LAN Technology (Wired)    |
+| **Wi-Fi**    | A specific **wireless** technology  for local area networking.                      | LAN Technology (Wireless) | 
+| **LAN**      | A network connecting devices within a limited area (e.g., home, office).            | Local Network             |
+| **WAN**      | A network that spans a large geographical area, often connecting multiple **LANs**. | Wide Network              |
+| **Internet** | A global system of interconnected networks using the Internet Protocol (IP) suite.  | Global WAN                | 
